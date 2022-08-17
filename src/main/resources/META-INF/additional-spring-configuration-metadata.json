@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "wx.appId",
+      "type": "java.lang.String",
+      "description": "Description for wx.appId."
+  }
+] }

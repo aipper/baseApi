@@ -1,0 +1,24 @@
+server:
+  port: 7777
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Abc@123456
+    url: jdbc:mysql://mysql.dev.hubeis.cn:7005/mj?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8&usessl=false&allowMultiQueries=true
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+
+
+
+wx:
+  mini-app-sec: 39b5620dd678f6bb91088b5b31812d66
+  app-id: wx58c3bcbd046710bb
+  app-sec: 0f869406eb6fe92f829bccb298c16c28
+  wx-token: 22dcf3e994184dc089faaeb5f13dcda2
+  mini-app-id: wx07b5ea9fa16a8308
